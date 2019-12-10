@@ -14,7 +14,7 @@ export default class Cell extends React.Component {
     render(){
         console.log(this.state)
     return (
-    <div className="cell" style={{backgroundColor: this.state.color}} onClick={this.changeColor}>test</div>
+    <div className="cell" onClick={this.changeColor} style={{backgroundColor: this.state.color}}>test</div>
         )
     }
 
